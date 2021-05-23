@@ -175,6 +175,11 @@
 }
 
 @media (max-width: 400px) {
+   
+   .about-content .left img {
+    height: 300px;
+    width: 300px;
+  }
  
   section .title::after{
     display: none;
