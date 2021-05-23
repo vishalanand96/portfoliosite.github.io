@@ -194,4 +194,12 @@
   object-fit: cover;
   border-radius: 6px;
 }
+   footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  padding: 20px 23px;
+  color: #fff;
+  font-weight: 500;
+   font-size : 15px   
+}
 }
