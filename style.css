@@ -126,7 +126,7 @@ html {
 
 .home {
   display: flex;
-  background: url("banner.jpg") no-repeat center;
+  background: url("images/banner.jpg") no-repeat center;
 
   font-family: "Ubuntu", sans-serif;
   height: 100vh;
