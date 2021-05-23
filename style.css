@@ -42,6 +42,10 @@ html {
 }
 .navbar.sticky li a {
   margin-top: 10px;
+ 
+}
+.navbar.sticky li a:hover{
+  color : #fff;
 }
 .navbar .max-width {
   display: flex;
