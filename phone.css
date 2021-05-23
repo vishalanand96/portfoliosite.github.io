@@ -139,7 +139,7 @@
 }
 
 @media   (max-width: 500px) {
-     .max-width {
+     *{
     padding: 0 23px;
   }
     .home .home-content .text-2{
@@ -177,7 +177,7 @@
 }
 
 @media (max-width: 400px) {
-    .max-width {
+    *{
     padding: 0 20px;
   }
   section .title::after{
@@ -188,9 +188,9 @@
     display: none;
       
   }
-   .about-content .left img {
-  height: 350px;
-  width: 350px;
+  .about.about-content .left img {
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   border-radius: 6px;
 }
