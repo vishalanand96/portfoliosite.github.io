@@ -34,14 +34,14 @@
         </ul>
         </div>
         <div id="menu-btn" class="menu-btn">
-          <i class="fas fa-bars" ></i>
+          <i id="menubtn" class="fas fa-bars" ></i>
         </div>
       </div>
     </div>
 
     <!-- HOME SECTON  -->
     <section class="home" id="home">
-      <div class="max-width">
+      <div class="max-width" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
         <div class="home-content">
           <div class="text-1">Hello, myself</div>
           <div class="text-2">Vishal Anand</div>
@@ -54,7 +54,7 @@
     <!-- ABOUT SECTION STARTS HERE  -->
 
     <section class="about" id="about">
-      <div class="max-width">
+      <div class="max-width" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
         <h2 class="title">About me</h2>
         <div class="about-content">
           <div class="column left">
@@ -80,7 +80,7 @@
       <div class="max-width">
         <h2 class="title">My Services</h2>
         <div class="serv-content">
-          <div class="card">
+          <div class="card" data-aos="fade-right"  data-aos-easing="ease">
             <div class="box">
               <i class="fas fa-laptop-code"></i>
               <div class="text">Web Dev</div>
@@ -89,7 +89,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-in"  data-aos-easing="ease">
             <div class="box">
               <i class="fas fa-chart-line"></i>
               <div class="text">SMM</div>
@@ -98,7 +98,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-left" data-aos-easing="ease">
             <div class="box">
               <i class="fas fa-pencil-alt"></i>
               <div class="text">Content Creation</div>
@@ -113,7 +113,7 @@
 
     <!-- SKILLS SECTION STARTS  -->
     <section class="skills" id="skills">
-      <div class="max-width">
+      <div class="max-width" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
         <h2 class="title">My Skills</h2>
         <div class="skills-content">
           <div class="column left">
@@ -175,7 +175,7 @@
       <div class="max-width">
         <h2 class="title">My Projects</h2>
         <div class="pro-content">
-          <div class="card">
+          <div class="card" data-aos="fade-right" data-aos-easing="ease>
             <div class="box">
               <div class="text">Gym's Page</div>
               
@@ -184,7 +184,7 @@
             <a class="a" href="https://insciencex.com/">View</a>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-in" data-aos-easing="ease>
             <div class="box">
               <div class="text">Restaurant</div>
               
@@ -193,7 +193,7 @@
             <a class="a" href="">View</a>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-left" data-aos-easing="ease">
             <div class="box">
               <div class="text">Webinar Event</div>
              
@@ -208,7 +208,7 @@
     <!-- CONTACT SECTION STARTS  -->
 
     <section class="contact" id="contact">
-      <div class="max-width">
+      <div class="max-width" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="50">
         <h2 class="title">Contact me</h2>
         <div class="contact-content">
           <div class="column left">
@@ -291,6 +291,16 @@
     
     <script src="script.js"></script>
     <script src="jquery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+          offset: 250,
+
+        duration: 1500,
+        }
+      );
+    </script>
    
   </body>
 </html>
