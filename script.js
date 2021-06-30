@@ -106,6 +106,23 @@ function ajax(method,url,data,success,error ){
 }
 
 
+  const menubtn = document.getElementById('menubtn');
+  const menu = document.getElementById('menu');
+
+       document.onclick = function(e){
+         if(e.target.id !== 'menu' && e.target.id !== 'menubtn' ){
+           menubtn.classList.remove('active');
+           menu.classList.remove('active');
+         }
+       }
+
+
+  menubtn.onclick = function (){
+      
+    menubtn.classList.toggle('active');
+    menu.classList.toggle('active');
+  }
+
 
 
 
