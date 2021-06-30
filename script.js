@@ -54,9 +54,7 @@ $(document).ready(function(){
 // onclick navbar collpase feature 
 
 
-           $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+           
 
 
 
